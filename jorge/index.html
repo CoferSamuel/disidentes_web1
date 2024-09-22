@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang=es>
+<head>
+    <link rel="stylesheet" href="CSS/my_styles.css">
+    <title>Plantilla para página personal de Jorge Méndez Martínez</title>
+    <meta charset="utf-8">
+</head>
+ <body>
+    <header>
+        <h1> Página personal de Jorge Méndez</h1>
+    </header>
+    <nav>
+        <form>Soy un estudiante de la <a href= "https://www.unex.es/"> UEx</form>
+        <br>
+        <img id="imgJMM" src="https://campusvirtual.unex.es/zonauex/avuex/pluginfile.php/2278657/user/icon/moove/f1?rev=65007237" alt="Foto de perfil de Jorge Méndez Martínez en la unex" width="150" height="150">
+        <br>
+        
+        <a href="#formulario" class="navegacion"> Información personal </a> <br/>
+        <a href="#horario" class="navegacion"> Horarios </a> <br/>
+        <a href="#intereses" class="navegacion"> Intereses y aficiones </a> <br/>
+        <a href="#informacion" class="navegacion"> Información relevante </a> <br/>
+    </nav>
+    <section id="formulario">
+        <h2>Información personal</h2>
+        
+        <form>
+            Formulario de contacto (datos requeridos)
+            <ul>
+             <li>
+	           <label for="nombre">Nombre:</label> 
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre Apellidos" required aria-required="true">
+    
+             </li>
+             <li>
+	           <label for="email">Email: </label><input type="text" name="email" id="email" placeholder="XXXX@alumnos.unex.es" required aria-required="true">
+               <label> Formato correcto: "XXXX@alumnos.unex.es"</label>
+            </li>
+            <li>
+	           <label for="web">Sitio web: </label><input type="text" name="web" id="web" placeholder="http://unex.es" required aria-required="true">
+               <label> Formato correcto: "http://unex.es"</label>
+            </li>
+            <li>
+                <label>Comentario</label>
+                <textarea></textarea>
+    
+            </li>
+            <li>
+                <button type="submit">Enviar mensaje</button>
+            </li>
+    
+           </ul>
+  
+ 
+ </form>
+      
+    </section>
+    <section id="horario">
+        <h2> <img id="imgHorario" src="https://i.pinimg.com/474x/f7/ed/4c/f7ed4c1691d43ab63d329e6d1059a840.jpg" width="50" height="50"> Horario</h2>
+        <table border="1" cellpadding="10">
+            <tr>
+                <th>Día</th>
+                <th> 8:30 / 10:00  </th>
+                <th>10:00 / 11:30  </th>
+                <th>11:30 / 13:00  </th>
+                <th>13:00 / 14:30  </th>
+            </tr>
+            <tr>
+                <th>LUNES   </th>
+                <th> --     </th>
+                <th>DABD    </th>
+                <th>SO      </th>
+                <th> --     </th>
+            </tr>
+            <tr>
+                <th>MARTES  </th>
+                <th>IS      </th>
+                <th>SO      </th>
+                <th>LAB ALI </th>
+                <th> --     </th>
+            </tr>
+            <tr>
+                <th>MIÉRCOLES</th>
+                <th>ALI     </th>
+                <th>DISI    </th>
+                <th>LAB DISI</th>
+                <th>LAB IS  </th>
+            </tr>
+            <tr>
+                <th>JUEVES  </th>
+                <th>IS      </th>
+                <th>DISI    </th>
+                <th>LAB SO  </th>
+                <th> --     </th>
+            </tr>
+           <tr>
+                <th>VIERNES </th>
+                <th>ALI     </th>
+                <th>DABD    </th>
+                <th> --     </th>
+                <th> --     </th>
+            </tr>
+            
+        </table>
+    </section>
+    <section id="intereses">
+        <h2> Intereses y aficiones </h2>
+    </section>
+        <ul>
+         <li> Escuchar musica</li>
+         <li> Petanca semiprofesional</li>
+         <li> Jugar baloncesto</li>
+        </ul>
+    <section id="informacion">
+        <h2> Información relevante</h2>
+    </section>
+    <footer>
+        <address> El autor: Jorge Méndez Martínez <a href="mailto:jmendezkm@unex.es">
+jmendezkm@unex.es </a> </address>
+    </footer>
+ </body>
+</html>
