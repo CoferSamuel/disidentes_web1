@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang=es>
+    <head>
+        <title>Plantilla para página personal de Samuel Corrionero Fernández</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header>
+            <h1>Página personal de Samuel Corrionero</h1>
+            <img src="yo.jpeg" alt="yoo"  width="200" height="200">
+        </header>
+        <section>
+            <h2>Estudios</h2>
+            <p>Estudio GIIC en la <a href=”https://www.unex.es/”> Universidad de Extremadura </a></p>
+        </section>
+        <section>
+            <h2>Aficiones</h2>
+            <ul>
+              <li>Limpiar cristales</li>
+              <li>Imitar sonidos de animales</li>
+              <li>Recoger ciruelas en verano</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Horarios</h2>
+            <table  >
+              <thead>
+                <tr>
+                  <th>Lunes</th>
+                  <th>Martes</th>
+                  <th>Miércoles</th>
+                  <th>Jueves</th>
+                  <th>Viernes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>---</td>
+                  <td>---</td>
+                  <td>---</td>
+                  <td>---</td>
+                  <td>---</td>
+                </tr>
+                <tr>
+                  <td>---</td>
+                  <td>---</td>
+                  <td>---</td>
+                  <td>---</td>
+                  <td>---</td>
+                </tr>
+                <tr>
+                  <td>---</td>
+                  <td>---</td>
+                  <td>---</td>
+                  <td>---</td>
+                  <td>---</td>
+                </tr>
+                <tr>
+                  <td>---</td>
+                  <td>---</td>
+                  <td>---</td>
+                  <td>---</td>
+                  <td>---</td>
+                </tr>
+                <tr>
+                  <td>---</td>
+                  <td>---</td>
+                  <td>---</td>
+                  <td>---</td>
+                  <td>---</td>
+                </tr>
+              </tbody>
+            </table>
+        </section>
+        <section>
+            <h2><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSghx5txWuw_PGWTremrkxpKaAb_z49gRJxFg&s" alt="Description of image" width="40" height="40">Contacto</h2>
+            <form action="/submit" method="post">
+              <!-- Form Elements Go Here -->
+                <label for="name">Nombre: </label>                
+                <input type="text" id="name" name="name" placeholder="Nombre Apellidos">
+                <br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="XXXX@alumnos.unex.es">
+                <span>Formato correcto: "name@alumnos.unex.es"</span>
+                <br>
+                
+                <label for="website">Website:</label>
+                <input type="url" id="website" name="website" placeholder="https://unex.es">
+                <span>Formato correcto: "http://unex.es"</span>
+                <br>
+                
+                  <label for="message">Mensaje:</label><br>
+                  <textarea id="message" name="message" rows="5" cols="50"></textarea>
+                <br>
+                
+                <input type="submit" value="Enviar mensaje">
+            </form>
+
+        </section>
+        <footer>
+        <address> El autor: Samuel Corrionero <a href="mailto:scorrion@alumnos.unex.es">scorrion@alumnos.unex.es</a> </address>
+        </footer>
+    </body>
+</html>
